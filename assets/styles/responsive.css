@@ -2,7 +2,9 @@
 @media screen and (max-width:576px) {
 
     /* shared styles  */
-
+    .title {
+        font-size: 2rem;
+    }
 
     /* header  */
     nav {
@@ -36,6 +38,25 @@
     .hero .hero-text h1 {
         font-size: 2rem;
     }
+
+    /* date section  */
+    .date {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .date .heading {
+        text-align: center;
+    }
+
+    .date .day {
+        gap: 20px;
+
+        p {
+            margin-top: -10px;
+        }
+    }
+
 }
 
 
@@ -65,13 +86,23 @@
         font-size: 3rem;
     }
 
+    /* date section  */
+    .date {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .date .heading {
+        text-align: center;
+    }
+
 }
 
 
 
 
 
-/* for medium devices  */
+/* for large devices  */
 @media screen and (min-width:992px) and (max-width:1180px) {
     .logo h2 {
         font-size: 2.5rem;
@@ -83,5 +114,10 @@
 
     .hero .hero-fruit {
         display: none;
+    }
+
+    /* date section  */
+    .date {
+        margin: 0 auto;
     }
 }

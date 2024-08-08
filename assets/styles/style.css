@@ -29,6 +29,23 @@ section {
     cursor: pointer;
 }
 
+.heading {
+    max-width: 615px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-weight: 500;
+    color: rgba(18, 18, 18, 0.6);
+}
+
 /* header */
 header {
     max-width: 1480px;
@@ -143,4 +160,34 @@ nav .fa-bars {
 
 .hero .hero-fruit img {
     margin-bottom: 16px;
+}
+
+/* date section  */
+.date {
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.date .heading {
+    text-align: left;
+    margin: 0;
+}
+
+.date .day {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    i {
+        font-size: 1.5rem;
+    }
+
+    p {
+        margin-top: 8px;
+    }
 }
