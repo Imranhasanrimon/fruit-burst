@@ -24,6 +24,18 @@
         display: block;
         font-size: 1.25rem;
     }
+
+    .hero {
+        height: 400px;
+    }
+
+    .hero .hero-fruit {
+        display: none;
+    }
+
+    .hero .hero-text h1 {
+        font-size: 2rem;
+    }
 }
 
 
@@ -35,7 +47,8 @@
         padding: 20px;
     }
 
-    nav ul {
+    nav ul,
+    .hero .hero-fruit {
         display: none;
     }
 
@@ -47,6 +60,11 @@
         width: 270px;
         height: 46px;
     }
+
+    .hero .hero-text h1 {
+        font-size: 3rem;
+    }
+
 }
 
 
@@ -61,5 +79,9 @@
 
     nav .input {
         width: 250px;
+    }
+
+    .hero .hero-fruit {
+        display: none;
     }
 }
