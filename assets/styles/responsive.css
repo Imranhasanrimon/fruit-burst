@@ -1,0 +1,65 @@
+/* for small devices  */
+@media screen and (max-width:576px) {
+
+    /* shared styles  */
+
+
+    /* header  */
+    nav {
+        background: transparent;
+        padding: 0;
+    }
+
+    nav ul,
+    nav .input {
+        display: none;
+    }
+
+    .logo h2 {
+        color: black;
+        font-size: 1.25rem;
+    }
+
+    nav .fa-bars {
+        display: block;
+        font-size: 1.25rem;
+    }
+}
+
+
+/* for medium devices  */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* header */
+    nav {
+        padding: 20px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .logo h2 {
+        font-size: 2rem;
+    }
+
+    nav .input {
+        width: 270px;
+        height: 46px;
+    }
+}
+
+
+
+
+
+/* for medium devices  */
+@media screen and (min-width:992px) and (max-width:1180px) {
+    .logo h2 {
+        font-size: 2.5rem;
+    }
+
+    nav .input {
+        width: 250px;
+    }
+}

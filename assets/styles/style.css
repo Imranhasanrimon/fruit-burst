@@ -7,4 +7,82 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    color: black;
+}
+
+/* shared styles  */
+
+section {
+    max-width: 1480px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    max-width: 1480px;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 600px;
+    padding: 30px 50px;
+    background: rgb(248, 85, 89);
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul a {
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav .input {
+    width: 400px;
+    height: 56px;
+    position: relative;
+}
+
+nav .input input {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: none;
+    padding-left: 30px;
+}
+
+nav .input i {
+    color: black;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+}
+
+nav .fa-bars {
+    display: none;
 }
