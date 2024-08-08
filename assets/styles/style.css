@@ -15,7 +15,7 @@
 section {
     max-width: 1480px;
     padding: 20px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .btn-primary {
@@ -194,7 +194,7 @@ nav .fa-bars {
 }
 
 /* price section */
-.price {
+.price>div {
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -215,4 +215,40 @@ nav .fa-bars {
 
 .price .box .rating {
     margin: 30px 0;
+}
+
+.price .btn-primary {
+    display: block;
+    margin: 0 auto;
+}
+
+/* team section  */
+.team {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px;
+}
+
+.team .member {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.team h3,
+.team .description,
+.team i {
+    color: white;
+    margin-top: 20px;
+}
+
+.team i {
+    width: 40px;
+    background: rgb(248, 85, 89);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
 }

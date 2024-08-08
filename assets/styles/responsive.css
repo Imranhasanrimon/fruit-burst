@@ -58,8 +58,18 @@
     }
 
     /* price section */
-    .price {
+    .price>div {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* team section  */
+    .team {
+        padding: 50px 20px;
+    }
+
+    .team .member {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
     }
 }
 
@@ -101,10 +111,19 @@
     }
 
     /* price section */
-    .price {
+    .price>div {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /* team section  */
+    .team {
+        padding: 50px 30px;
+    }
+
+    .team .member {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
 
 
 }
