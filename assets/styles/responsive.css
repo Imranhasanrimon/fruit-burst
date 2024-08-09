@@ -52,6 +52,11 @@
     .date .day {
         gap: 20px;
 
+        i {
+            font-size: 1rem;
+            margin-top: 15px;
+        }
+
         p {
             margin-top: -10px;
         }
