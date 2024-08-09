@@ -263,9 +263,12 @@ nav .fa-bars {
 }
 
 .feature .container .box {
-    margin-bottom: 48px;
     display: flex;
     gap: 24px;
+}
+
+.feature .container .box:not(:last-child) {
+    margin-bottom: 48px;
 }
 
 .feature .container .box i {

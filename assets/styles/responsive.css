@@ -75,12 +75,9 @@
     /* feature section  */
     .feature .container {
         grid-template-columns: repeat(1, 1fr);
-
+        gap: 50px;
     }
 
-    .feature .container .right {
-        margin-top: 50px;
-    }
 
 }
 
@@ -146,6 +143,7 @@
         grid-column: span 2;
         order: -1;
         height: 400px;
+        margin-bottom: 50px;
     }
 
 
