@@ -71,6 +71,17 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
     }
+
+    /* feature section  */
+    .feature .container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .feature .container .right {
+        margin-top: 50px;
+    }
+
 }
 
 
@@ -123,6 +134,18 @@
     .team .member {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
+    }
+
+    /* feature section  */
+    .feature .container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .feature .container .middle {
+        grid-column: span 2;
+        order: -1;
+        height: 400px;
     }
 
 
