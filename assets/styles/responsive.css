@@ -78,7 +78,10 @@
         gap: 50px;
     }
 
-
+    /* footer section  */
+    .footer .nav ul {
+        flex-direction: column;
+    }
 }
 
 
